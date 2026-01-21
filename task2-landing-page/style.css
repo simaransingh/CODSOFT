@@ -1,0 +1,53 @@
+body {
+    margin:0;
+    font-family: Arial;
+}
+.navbar {
+    background:#0a3cff;
+    color:white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.hero button {
+    padding: 10px 25px;
+    background: #0a3cff;
+    color: white;
+    border: none;
+    font: size 16px;
+}
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+.about h2 {
+    margin-bottom: 15px;
+    color: #3f51b5;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 16px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.box {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #ccc;
+}
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+}
